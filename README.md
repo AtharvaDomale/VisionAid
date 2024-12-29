@@ -9,13 +9,22 @@
 
 
 ## Project Structure
+
+```
 VisionAid/
-├── requirements.txt
-├── main.py
-├── speech_utils.py
-├── image_utils.py
-├── ai_utils.py
-├── README.md
+├── requirements.txt          # List of dependencies required for the project
+├── main.py                   # Main entry point of the program
+├── speech_utils.py           # Module for handling speech-to-text and text-to-speech
+├── image_utils.py            # Module for image capturing and encoding
+├── ai_utils.py               # Module for interacting with Gemini Generative AI
+├── README.md                 # Project description and setup instructions
+```
+
+- `requirements.txt`: Contains all the Python packages that need to be installed.
+- `main.py`: The main file that orchestrates the interaction between speech, image, and AI functionalities.
+- `speech_utils.py`: A module for converting text to speech and speech to text.
+- `image_utils.py`: A module for capturing and encoding images.
+- `ai_utils.py`: A module for handling interactions with the Gemini Generative AI.
 
 
 ## Installation
