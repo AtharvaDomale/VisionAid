@@ -7,6 +7,17 @@
 - Captures and processes images for user queries.
 - Uses Gemini Generative AI for content generation.
 
+
+## Project Structure
+VisionAid/
+├── requirements.txt
+├── main.py
+├── speech_utils.py
+├── image_utils.py
+├── ai_utils.py
+├── README.md
+
+
 ## Installation
 1. Clone the repository:
    ```bash
