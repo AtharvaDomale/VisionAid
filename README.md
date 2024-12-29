@@ -12,7 +12,7 @@
 
 ```
 VisionAid/
-├── requirements.txt          # List of dependencies required for the project
+├── Requirements.txt          # List of dependencies required for the project
 ├── main.py                   # Main entry point of the program
 ├── speech_utils.py           # Module for handling speech-to-text and text-to-speech
 ├── image_utils.py            # Module for image capturing and encoding
@@ -20,7 +20,7 @@ VisionAid/
 ├── README.md                 # Project description and setup instructions
 ```
 
-- `requirements.txt`: Contains all the Python packages that need to be installed.
+- `Requirements.txt`: Contains all the Python packages that need to be installed.
 - `main.py`: The main file that orchestrates the interaction between speech, image, and AI functionalities.
 - `speech_utils.py`: A module for converting text to speech and speech to text.
 - `image_utils.py`: A module for capturing and encoding images.
@@ -36,7 +36,7 @@ VisionAid/
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r Requirements.txt
    ```
 
 3. Replace `"API Key"` in `ai_utils.py` with your Gemini API key.
