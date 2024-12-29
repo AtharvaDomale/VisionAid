@@ -1,4 +1,3 @@
-# VisionAid
 # VisionAid: AI Assistant with Voice and Image Interaction
 
 **VisionAid** is an AI assistant that combines advanced speech recognition, image processing, and generative AI to assist users through natural language and visual tasks.
