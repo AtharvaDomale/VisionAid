@@ -2,7 +2,7 @@ from speech_utils import text_to_speech, speech_to_text
 from image_utils import capture_image, encode_image
 from ai_utils import configure_genai, upload_to_gemini, generate_ai_response
 import google.generativeai as genai
-
+import pandas
 
 def main():
     configure_genai(api_key="API Key")  # Replace with your API key
